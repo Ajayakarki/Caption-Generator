@@ -1,0 +1,13 @@
+body {
+    background-color: rgb(8, 172, 8);
+  }
+  h1 {
+    color: blue;
+  }
+
+
+
+.form-center {
+	display:flex;
+	justify-content: center;
+}

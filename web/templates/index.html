@@ -1,0 +1,47 @@
+<html>
+
+    <head>
+<style>
+body {
+  background-color: rgb(37, 112, 74);
+}
+
+.h1 {
+  color: rgb(219, 136, 12);
+  margin-left: 500px;
+  padding-top: 200px;
+
+}
+
+.form-center {
+	display:flex;
+	justify-content: center;
+    padding-top: 30px;
+}
+</style>   
+
+
+</head>
+<div class="h1">
+    <h1>Image Caption Generator</h1>
+
+</div>
+
+  <body>
+
+
+    <div class="form-center">
+
+    <form action="{{url_for('after')}}" method="POST" enctype="multipart/form-data">
+
+        <input type="file" name="file1">
+
+        <input type="submit">
+
+    </form>
+</div>
+
+</body>
+
+</html>
+

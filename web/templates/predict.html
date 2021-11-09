@@ -1,0 +1,37 @@
+<html>
+
+<head>
+<style>
+body {
+  background-color: rgb(37, 112, 74);
+}
+
+.imgg {
+	display:flex;
+	justify-content: center;
+    padding-top: 30px;
+    padding-left: 90px;
+}
+
+.h2 {
+  color: rgb(219, 136, 12);
+  padding-bottom: 25px; 
+  padding-left: 450px;
+
+}
+</style>
+
+</head>
+
+<div class="imgg">
+
+<img src="{{url_for('static', filename='file.jpg')}}" height="340px">
+
+</div> 
+<div class="h2">
+        <h2>{{data}}</h2>  
+
+
+</div>
+
+</html>
