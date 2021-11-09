@@ -20,7 +20,7 @@
 <h1>Deployment of model</h1>
 <br>While deploying model in the web application the trained final model is saved by h5 extension and is loaded in the flask framework which has the simple UI.</br>
 
-<h1>Results after deploying in Django Framework</h1>
+<h1>Results after deploying in Flask Framework</h1>
 
 <br><img src="images/2.JPG">  <img src="images/3.JPG"> </br>
 
